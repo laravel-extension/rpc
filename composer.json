@@ -1,0 +1,19 @@
+{
+    "name": "laravel-extension/rpc",
+    "authors": [
+        {
+            "name": "孙广君",
+            "email": "sunguangjun@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "laravel/framework": "5.4.*",
+        "fguillot/json-rpc": "1.2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "RPC\\": "src/"
+        }
+    }
+}
